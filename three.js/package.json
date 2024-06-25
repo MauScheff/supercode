@@ -1,0 +1,19 @@
+{
+  "name": "supercode",
+  "version": "1.0.0",
+  "description": "A study of pure javascript and 3d visual programming to write, fix, and maintain reliable software fast.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1"
+  }
+}
