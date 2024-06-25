@@ -1,6 +1,6 @@
 <script>
-  import { T } from '@threlte/core'
-  import { ContactShadows, Float, Grid, OrbitControls } from '@threlte/extras'
+  import { T } from '@threlte/core';
+  import { ContactShadows, Float, Grid, OrbitControls } from '@threlte/extras';
 </script>
 
 <T.PerspectiveCamera
@@ -53,7 +53,7 @@
   </T.Mesh>
 </Float>
 
-<Float
+<!-- <Float
   floatIntensity={1}
   floatingRange={[0, 1]}
 >
@@ -65,9 +65,9 @@
     <T.TorusKnotGeometry args={[0.5, 0.15, 100, 12, 2, 3]} />
     <T.MeshStandardMaterial color="#F85122" />
   </T.Mesh>
-</Float>
+</Float> -->
 
-<Float
+<!-- <Float
   floatIntensity={1}
   floatingRange={[0, 1]}
 >
@@ -78,4 +78,4 @@
     <T.IcosahedronGeometry />
     <T.MeshStandardMaterial color="#F8EBCE" />
   </T.Mesh>
-</Float>
+</Float> -->
